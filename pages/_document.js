@@ -30,7 +30,7 @@ class MyDocument extends Document {
           />
 
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://metatags.io/" />
+          <meta property="og:url" content="https://yt-merger.vercel.app/" />
           <meta
             property="og:title"
             content="YouTube tools — Generate WhatsApp status from YouTube URLs"
@@ -39,10 +39,16 @@ class MyDocument extends Document {
             property="og:description"
             content="This is a tool that is used to generate WhatsApp status videos without downloading the actual videos."
           />
-          <meta property="og:image" content="og.png" />
+          <meta
+            property="og:image"
+            content="https://yt-merger.vercel.app/og.png"
+          />
 
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://metatags.io/" />
+          <meta
+            property="twitter:url"
+            content="https://yt-merger.vercel.app/"
+          />
           <meta
             property="twitter:title"
             content="YouTube tools — Generate WhatsApp status from YouTube URLs"
@@ -51,7 +57,10 @@ class MyDocument extends Document {
             property="twitter:description"
             content="This is a tool that is used to generate WhatsApp status videos without downloading the actual videos."
           />
-          <meta property="twitter:image" content="og.png" />
+          <meta
+            property="twitter:image"
+            content="https://yt-merger.vercel.app/og.png"
+          />
         </Head>
         <body>
           <Main />
